@@ -2,11 +2,11 @@ import { Post } from "@/api/posts";
 import Image from "next/image";
 import Link from "next/link";
 
-type Props = {
+type PostCardProps = {
   post: Post;
 };
 
-export default function PostCard({ post: { title, description, date, category, path } }: Props) {
+export default function PostCard({ post: { title, description, date, category, path } }: PostCardProps) {
   return (
     <Link href={`/posts/${path}`}>
       <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl">
