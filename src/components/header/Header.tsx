@@ -1,5 +1,6 @@
 import Link from "next/link";
 import DarkModeToggle from "./DarkModeToggle";
+import Search from "./Search";
 
 export default function Header() {
   return (
@@ -7,7 +8,8 @@ export default function Header() {
       <Link href="/">
         <h1 className="text-3xl font-bold slate-900 pl-10">{"jihyeon's Blog"}</h1>
       </Link>
-      <nav className="flex gap-4 text-white pr-10">
+      <nav className="flex items-center gap-4 text-white pr-10">
+        <Search />
         <Link href="/">home</Link>
         <Link href="/about">about</Link>
         <Link href="/category">category</Link>
