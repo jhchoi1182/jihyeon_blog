@@ -1,3 +1,3 @@
 export default function PostsPage() {
-  return <p>posts</p>;
+  return <p>category</p>;
 }
