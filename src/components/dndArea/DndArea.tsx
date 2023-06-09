@@ -2,13 +2,29 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Profile from "./Profile";
+import Categories from "./Categories";
+
+const profileWidth = 224;
+const categories = [
+  "웹 개발 기초",
+  "미분류 오류",
+  "React Native",
+  "Javascript",
+  "Typescript",
+  "라이브러리",
+  "GitHub",
+  "Next.js",
+  "React",
+  "일지",
+  "기타",
+  "CS",
+  "코딩 테스트",
+];
 
 export default function DndArea() {
-  const profileWidth = 224;
-
   const profileRef = useRef<HTMLDivElement>(null);
   const [isDragging, setIsDragging] = useState(false);
-  const [clickOffset, setClickOffset] = useState({ x: 0 });
+  const [cursorOffset, setCursorOffset] = useState({ x: 0 });
   const [centerX, setCenterX] = useState(window.innerWidth / 2 - profileWidth / 2);
 
   const handleMouseDown = (e: React.MouseEvent<HTMLDivElement>) => {
@@ -16,7 +32,7 @@ export default function DndArea() {
     if (profileRef.current) {
       const rect = profileRef.current.getBoundingClientRect();
       const offsetX = e.clientX - rect.left;
-      setClickOffset({ x: offsetX });
+      setCursorOffset({ x: offsetX });
     }
   };
 
@@ -25,7 +41,7 @@ export default function DndArea() {
     const { current } = profileRef;
 
     if (current) {
-      const rectLeft = e.clientX - clickOffset.x;
+      const rectLeft = e.clientX - cursorOffset.x;
       current.style.transform = `translateX(${rectLeft}px)`;
       if (current && rectLeft < 56) {
         current.style.transform = `translateX(56px)`;
@@ -48,10 +64,10 @@ export default function DndArea() {
   }, []);
 
   return (
-    <section className="relative overflow-x-hidden">
+    <section className="overflow-x-hidden">
       <div
         ref={profileRef}
-        className="w-56 cursor-grab select-none"
+        className="relative w-56 cursor-grab select-none z-30"
         style={{ transform: `translateX(${centerX}px)` }}
         onMouseDown={handleMouseDown}
         onMouseMove={handleMouseMove}
@@ -59,6 +75,11 @@ export default function DndArea() {
         onMouseLeave={() => setIsDragging(false)}
       >
         <Profile />
+      </div>
+      <div className="relative">
+        {categories.map((category) => (
+          <Categories key={category} category={category} />
+        ))}
       </div>
     </section>
   );
