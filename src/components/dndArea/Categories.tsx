@@ -46,8 +46,11 @@ export default function Categories({ category }: CategoriesProps) {
   return (
     <button
       ref={categoryRef}
-      className="absolute -top-[82px] left-0 rounded-full  text-slate-600 text font-bold bg-sky-300 shadow-sm px-1 cursor-grab focus:bg-sky-400"
-      style={{ transform: `translate(${XY.x}px, -${XY.y}px)` }}
+      className="absolute -top-[82px] left-0 rounded-full  text-slate-600 text font-bold shadow-sm px-1 cursor-grab bg-gradient-to-tr from-sky-400 to-sky-100"
+      style={{
+        transform: `translate(${XY.x}px, -${XY.y}px)`,
+        textShadow: "2px 2px 7px rgba(0, 0, 0, 0.2)",
+      }}
     >
       {category}
     </button>
