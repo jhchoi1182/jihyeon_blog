@@ -2,24 +2,8 @@
 
 import React, { useState, useRef, useEffect } from "react";
 import Profile from "./Profile";
-import Categories from "./Categories";
 
 const profileWidth = 224;
-const categories = [
-  "웹 개발 기초",
-  "미분류 오류",
-  "React Native",
-  "Javascript",
-  "Typescript",
-  "라이브러리",
-  "GitHub",
-  "Next.js",
-  "React",
-  "일지",
-  "기타",
-  "CS",
-  "코딩 테스트",
-];
 
 export default function DndArea() {
   const profileRef = useRef<HTMLDivElement>(null);
@@ -75,11 +59,6 @@ export default function DndArea() {
         onMouseLeave={() => setIsDragging(false)}
       >
         <Profile />
-      </div>
-      <div className="relative">
-        {categories.map((category) => (
-          <Categories key={category} category={category} />
-        ))}
       </div>
     </section>
   );
