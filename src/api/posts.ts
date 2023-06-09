@@ -7,13 +7,13 @@ export type Post = {
   date: Date;
   category: string;
   path: string;
-  featured: boolean;
+  public: boolean;
 };
 
 export type PostData = Post & { content: string };
 
-export async function getFeaturedPosts(): Promise<Post[]> {
-  return getAllPosts().then((posts) => posts.filter((post) => post.featured));
+export async function getPublicPosts(): Promise<Post[]> {
+  return getAllPosts().then((posts) => posts.filter((post) => post.public));
 }
 
 export async function getAllPosts(): Promise<Post[]> {

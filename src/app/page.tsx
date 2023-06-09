@@ -1,11 +1,10 @@
-import Profile from "@/components/Profile";
+import DndArea from "@/components/dndArea/DndArea";
 import FeaturedPosts from "@/components/post/FeaturedPosts";
 
 export default function Home() {
   return (
     <main>
-      <Profile />
-      {/* @ts-expect-error Server Component */}
+      <DndArea />
       <FeaturedPosts />
     </main>
   );

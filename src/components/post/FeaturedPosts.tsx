@@ -1,8 +1,8 @@
-import { getAllPosts, getFeaturedPosts } from "@/api/posts";
+import { getAllPosts, getPublicPosts } from "@/api/posts";
 import PostsContainer from "./PostsContainer";
 
 export default async function FeaturedPosts() {
-  const posts = await getFeaturedPosts();
+  const posts = await getPublicPosts();
 
   return (
     <section className="mt-12 mb-24 px-14">
