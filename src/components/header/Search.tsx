@@ -22,7 +22,7 @@ export default function Search() {
   return (
     <div className="relative">
       <div
-        className={`absolute ${isOpen ? "top-[2.5px] left-1" : "top-[2.5px] left-0"} w-7 h-7 cursor-pointer`}
+        className={`absolute ${isOpen ? "top-[2.5px] left-1" : "top-[2.5px] left-1"} w-7 h-7 cursor-pointer`}
         onClick={showSearchInputHandler}
       >
         <SearchSvg />

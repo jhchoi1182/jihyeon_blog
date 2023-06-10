@@ -1,10 +1,10 @@
-import DndArea from "@/components/dndArea/DndArea";
+import Sidebar from "@/components/sidebar/Sidebar";
 import FeaturedPosts from "@/components/post/FeaturedPosts";
 
 export default function Home() {
   return (
-    <main>
-      <DndArea />
+    <main className="flex">
+      <Sidebar />
       <FeaturedPosts />
     </main>
   );
