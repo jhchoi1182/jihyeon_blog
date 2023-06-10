@@ -12,7 +12,6 @@ export default function Header() {
         <Search />
         <Link href="/">home</Link>
         <Link href="/about">about</Link>
-        <Link href="/category">category</Link>
         <DarkModeToggle />
       </nav>
     </header>
