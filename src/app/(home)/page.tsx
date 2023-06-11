@@ -3,9 +3,9 @@ import FeaturedPosts from "@/components/post/FeaturedPosts";
 
 export default function Home() {
   return (
-    <main className="flex">
+    <section className="flex">
       <Sidebar />
       <FeaturedPosts />
-    </main>
+    </section>
   );
 }

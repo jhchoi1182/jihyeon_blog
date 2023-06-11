@@ -1,28 +1,15 @@
-import React from "react";
+import CategoryTag from "./CategoryTag";
 
-const categories = [
-  "웹 개발 기초",
-  "미분류 오류",
-  "React Native",
-  "Javascript",
-  "Typescript",
-  "라이브러리",
-  "GitHub",
-  "Next.js",
-  "React",
-  "일지",
-  "기타",
-  "CS",
-  "코딩 테스트",
-];
+type CategoriesProps = {
+  categories: string[];
+};
 
-export default function Categories() {
+export default function Categories({ categories }: CategoriesProps) {
   return (
-    <div className="text-center mt-10">
+    <div className="text-center my-10">
+      <CategoryTag category="ALL" />
       {categories.sort().map((category, i) => (
-        <button key={i} className="border rounded-xl px-2 mr-1.5 my-2 focus:bg-teal-400">
-          {category}
-        </button>
+        <CategoryTag key={i} category={category} />
       ))}
     </div>
   );
