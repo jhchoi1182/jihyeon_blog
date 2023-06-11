@@ -1,26 +1,38 @@
-import React from "react";
+"use client";
 
-const categories = [
-  "웹 개발 기초",
-  "미분류 오류",
-  "React Native",
-  "Javascript",
-  "Typescript",
-  "라이브러리",
-  "GitHub",
-  "Next.js",
-  "React",
-  "일지",
-  "기타",
-  "CS",
-  "코딩 테스트",
-];
+import { useRecoilState } from "recoil";
+import { categoryAtom } from "@/libs/atoms";
+import Link from "next/link";
+import { usePathname } from "next/navigation";
 
-export default function Categories() {
+type CategoriesProps = {
+  categories: string[];
+};
+
+export default function Categories({ categories }: CategoriesProps) {
+  const [selectedCategory, setSelectedCategory] = useRecoilState(categoryAtom);
+  const pathname = usePathname();
+  // const test = pathname.startsWith("/React");
+  console.log(selectedCategory);
+
+  const bgColor = (category: string) => {
+    return selectedCategory === category ? "bg-teal-400" : "";
+  };
+
   return (
-    <div className="text-center mt-10">
+    <div className="text-center my-10">
+      <button
+        className={`border rounded-xl px-2 mr-1.5 my-2 ${bgColor("ALL")}`}
+        onClick={() => setSelectedCategory("ALL")}
+      >
+        ALL
+      </button>
       {categories.sort().map((category, i) => (
-        <button key={i} className="border rounded-xl px-2 mr-1.5 my-2 focus:bg-teal-400">
+        <button
+          key={i}
+          className={`border rounded-xl px-2 mr-1.5 my-2 ${bgColor(category)}`}
+          onClick={() => setSelectedCategory(category)}
+        >
           {category}
         </button>
       ))}

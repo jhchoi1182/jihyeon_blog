@@ -1,4 +1,4 @@
-import { getAllPosts, getPublicPosts } from "@/api/posts";
+import { getPublicPosts } from "@/api/posts";
 import PostsContainer from "./PostsContainer";
 
 export default async function FeaturedPosts() {
