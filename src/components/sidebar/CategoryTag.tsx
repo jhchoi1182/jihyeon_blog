@@ -1,14 +1,15 @@
 "use client";
 
+import { CategoryContext } from "@/context/CategoryContext";
 import { categoryAtom } from "@/libs/atoms";
-import { useRecoilState } from "recoil";
+import { useContext } from "react";
 
 type CategoryTagProps = {
   category: string;
 };
 
 export default function CategoryTag({ category }: CategoryTagProps) {
-  const [selectedCategory, setSelectedCategory] = useRecoilState(categoryAtom);
+  const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
 
   const bgColor = (category: string) => {
     return selectedCategory === category ? "bg-teal-400" : "";

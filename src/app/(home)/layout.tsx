@@ -1,6 +1,5 @@
-"use client";
-
-import { RecoilRoot } from "recoil";
+import Sidebar from "@/components/sidebar/Sidebar";
+import CategoryContextProvider from "@/context/CategoryContext";
 
 type HomeLayout = {
   children: React.ReactNode;
@@ -8,8 +7,11 @@ type HomeLayout = {
 
 export default async function HomeLayout({ children }: HomeLayout) {
   return (
-    <main>
-      <RecoilRoot>{children}</RecoilRoot>
+    <main className="flex">
+      <CategoryContextProvider>
+        <Sidebar />
+        <section>{children}</section>
+      </CategoryContextProvider>
     </main>
   );
 }

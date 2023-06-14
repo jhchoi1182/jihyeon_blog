@@ -1,17 +1,18 @@
 "use client";
 
-import { useRecoilValue } from "recoil";
+import { useContext } from "react";
 import PostCard from "./PostCard";
-import { categoryAtom } from "@/libs/atoms";
 import { Post } from "@/api/posts";
+import { CategoryContext } from "@/context/CategoryContext";
 
 type PostsContainerProps = {
   posts: Post[];
 };
 
 export default function PostsContainer({ posts }: PostsContainerProps) {
-  const category = useRecoilValue(categoryAtom);
-  const data = category === "ALL" ? posts : posts.filter((post) => post.category === category);
+  const { selectedCategory } = useContext(CategoryContext);
+
+  const data = selectedCategory === "ALL" ? posts : posts.filter((post) => post.category === selectedCategory);
 
   return (
     <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
