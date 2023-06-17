@@ -2,6 +2,7 @@
 
 import { CategoryContext } from "@/context/CategoryContext";
 import { categoryAtom } from "@/libs/atoms";
+import Link from "next/link";
 import { useContext } from "react";
 
 type CategoryTagProps = {
@@ -16,11 +17,12 @@ export default function CategoryTag({ category }: CategoryTagProps) {
   };
 
   return (
-    <button
+    <Link
       className={`border rounded-xl px-2 mr-1.5 my-2 ${bgColor(category)}`}
+      href="/"
       onClick={() => setSelectedCategory(category)}
     >
       {category}
-    </button>
+    </Link>
   );
 }

@@ -7,7 +7,7 @@ export default async function Sidebar() {
   const categories = [...new Set(posts.map((post) => post.category))];
 
   return (
-    <section className="w-80 px-10 border-r shadow-sm">
+    <section className="fixed top-[68px] left-0 w-80 h-screen px-10 border-r shadow-sm pointer-events-none hover:pointer-events-auto">
       <div className="mt-10">
         <Profile />
       </div>

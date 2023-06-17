@@ -4,7 +4,7 @@ import Search from "./Search";
 
 export default function Header() {
   return (
-    <header className="flex justify-between items-center p-4 bg-river">
+    <header className="sticky top-0 flex justify-between items-center p-4 bg-river">
       <Link href="/">
         <h1 className="text-3xl font-bold slate-900 pl-10">{"jihyeon's Blog"}</h1>
       </Link>
