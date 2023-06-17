@@ -1,4 +1,4 @@
-import Sidebar from "@/components/sidebar/Sidebar";
+import Sidebar from "@/components/sidebar";
 import CategoryContextProvider from "@/context/CategoryContext";
 
 type HomeLayout = {
@@ -10,7 +10,7 @@ export default async function HomeLayout({ children }: HomeLayout) {
     <main className="flex">
       <CategoryContextProvider>
         <Sidebar />
-        <section>{children}</section>
+        <section className="ml-80 ">{children}</section>
       </CategoryContextProvider>
     </main>
   );
