@@ -1,7 +1,6 @@
 "use client";
 
 import { CategoryContext } from "@/context/CategoryContext";
-import { categoryAtom } from "@/libs/atoms";
 import Link from "next/link";
 import { useContext } from "react";
 
