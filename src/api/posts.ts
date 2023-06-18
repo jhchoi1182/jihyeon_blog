@@ -45,11 +45,12 @@ export async function getResultPosts(keyword: string): Promise<Post[]> {
 }
 
 export async function getPostData(fileName: string): Promise<PostData> {
-  const filePath = path.join(process.cwd(), "data", "posts", `${fileName}.md`);
+  const decodedFileName = decodeURIComponent(fileName);
+  const filePath = path.join(process.cwd(), "data", "posts", `${decodedFileName}.md`);
   const posts = await getAllPosts();
-  const post = posts.find((post) => post.path === fileName);
+  const post = posts.find((post) => post.path === decodedFileName);
 
-  if (!post) throw new Error(`${fileName}에 해당하는 포스트를 찾을 수 없음`);
+  if (!post) throw new Error(`${decodedFileName}에 해당하는 포스트를 찾을 수 없음`);
 
   const content = await readFile(filePath, "utf-8");
   return { ...post, content };
