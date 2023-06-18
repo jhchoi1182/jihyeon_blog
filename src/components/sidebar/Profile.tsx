@@ -7,7 +7,7 @@ export default function Profile() {
   return (
     <div className="text-center mt-5">
       <Image
-        className="rounded-full mx-auto pointer-events-none"
+        className="rounded-full pointer-events-none"
         src={profileImage}
         alt="Picture of the author"
         width={250}

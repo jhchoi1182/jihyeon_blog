@@ -19,7 +19,7 @@ export async function generateMetadata({ params: { filename } }: DetailSlug): Pr
 export default async function Detail({ params: { filename } }: DetailSlug) {
   const post = await getPostData(filename);
   return (
-    <article className="overflow-hidden mt-14 mb-36 mx-36">
+    <article className="flex justify-center overflow-hidden mt-14 mb-36">
       <DetailPost post={post} />
     </article>
   );

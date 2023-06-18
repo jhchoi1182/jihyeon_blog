@@ -33,7 +33,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
 
   return (
     <html lang="en" className={`${sans.className}`}>
-      <body className="flex flex-col w-full mx-auto dark:bg-dark dark:text-slate-100">
+      <body className="flex flex-col w-full dark:bg-dark dark:text-slate-100">
         <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
         <Header />
         <main className="flex">
