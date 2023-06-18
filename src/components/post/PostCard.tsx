@@ -1,18 +1,14 @@
 import { Post } from "@/api/posts";
 import Image from "next/image";
 import Link from "next/link";
-import { usePathname } from "next/navigation";
 
 type PostCardProps = {
   post: Post;
 };
 
 export default function PostCard({ post: { title, date, category, path } }: PostCardProps) {
-  const pathname = usePathname();
-  const params = pathname.split("/")[1] + "/" + path;
-
   return (
-    <Link href={`${params}`}>
+    <Link href={`/${path}`}>
       <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl dark:border border-lightDark">
         <Image className="w-full" src={`/images/posts/${path}.png`} alt={title} width={300} height={200} />
         <div className="flex flex-col items-center p-4">

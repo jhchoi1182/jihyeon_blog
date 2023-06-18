@@ -4,12 +4,9 @@ import { useContext } from "react";
 import PostCard from "./PostCard";
 import { Post } from "@/api/posts";
 import { CategoryContext } from "@/context/CategoryContext";
+import { PostsProps } from ".";
 
-type PostsContainerProps = {
-  posts: Post[];
-};
-
-export default function PostsContainer({ posts }: PostsContainerProps) {
+export default function PostsContainer({ posts }: PostsProps) {
   const { selectedCategory } = useContext(CategoryContext);
 
   const data = selectedCategory === "ALL" ? posts : posts.filter((post) => post.category === selectedCategory);

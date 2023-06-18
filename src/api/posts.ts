@@ -1,4 +1,4 @@
-import { readFile } from "fs/promises";
+import { readFile, readdir } from "fs/promises";
 import path from "path";
 
 export type Post = {
@@ -23,6 +23,25 @@ export async function getAllPosts(): Promise<Post[]> {
 
 export async function getPublicPosts(): Promise<Post[]> {
   return getAllPosts().then((posts) => posts.filter((post) => post.public));
+}
+
+export async function getResultPosts(keyword: string): Promise<Post[]> {
+  const decodedKeyword = decodeURIComponent(keyword);
+  const filePath = path.join(process.cwd(), "data", "posts");
+  const files = await readdir(filePath);
+  const publicPosts = await getPublicPosts();
+
+  let result = [];
+  for (const file of files) {
+    const postPath = path.join(filePath, file);
+    const content = await readFile(postPath, "utf-8");
+    if (content.includes(decodedKeyword)) {
+      const fileName = file.replace(/\.md$/, "");
+      result.push(...publicPosts.filter((post) => post.path === fileName));
+    }
+  }
+
+  return result;
 }
 
 export async function getPostData(fileName: string): Promise<PostData> {

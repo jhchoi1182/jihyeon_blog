@@ -1,6 +1,7 @@
 "use client";
 
-import { useState } from "react";
+import { useRouter } from "next/navigation";
+import { useRef, useState } from "react";
 
 function SearchSvg() {
   return (
@@ -15,12 +16,19 @@ function SearchSvg() {
 
 export default function Search() {
   const [isOpen, setIsOpen] = useState(false);
+  const inputRef = useRef<HTMLInputElement>(null);
+  const router = useRouter();
   const showSearchInputHandler = () => {
     setIsOpen((prev) => !prev);
   };
 
+  const onSubmitHandler = (event: React.FormEvent<HTMLFormElement>) => {
+    event.preventDefault();
+    router.push(`/search/${inputRef.current?.value}`);
+  };
+
   return (
-    <div className="relative">
+    <form className="relative" onSubmit={onSubmitHandler}>
       <div
         className={`absolute ${isOpen ? "top-[2.5px] left-1" : "top-[2.5px] left-1"} w-7 h-7 cursor-pointer`}
         onClick={showSearchInputHandler}
@@ -31,8 +39,9 @@ export default function Search() {
         className={`${
           isOpen ? "w-56 border placeholder-white" : "w-0 border-none placeholder-transparent"
         } transition-all duration-300 pl-8 py-1 bg-transparent rounded-lg focus:outline-none focus:ring-1 focus:ring-white`}
+        ref={inputRef}
         placeholder="검색어를 입력해주세요."
       />
-    </div>
+    </form>
   );
 }

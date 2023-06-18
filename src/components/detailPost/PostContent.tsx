@@ -13,7 +13,7 @@ type PostContentProps = {
 export default function PostContent({ content }: PostContentProps) {
   return (
     <ReactMarkdown
-      className="prose max-w-none"
+      className="prose max-w-none dark:text-slate-100"
       remarkPlugins={[remarkGfm]}
       components={{
         code({ node, inline, className, children, ...props }) {
