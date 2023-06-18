@@ -7,7 +7,7 @@ type PostContentProps = {
 };
 
 export default function DetailPost({ post }: PostContentProps) {
-  const { title, description, date, content } = post;
+  const { title, date, content } = post;
 
   return (
     <section className="flex flex-col p-4 w-full">

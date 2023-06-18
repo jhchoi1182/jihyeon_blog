@@ -1,6 +1,7 @@
 import Link from "next/link";
 import DarkModeToggle from "./DarkModeToggle";
 import Search from "./Search";
+import { AiFillHome } from "react-icons/ai";
 
 export default function Header() {
   return (
@@ -10,8 +11,9 @@ export default function Header() {
       </Link>
       <nav className="flex items-center gap-4 text-white pr-10">
         <Search />
-        <Link href="/">home</Link>
-        <Link href="/about">about</Link>
+        <Link href="/">
+          <AiFillHome className="text-2xl mr-1 cursor-pointer" />
+        </Link>
         <DarkModeToggle />
       </nav>
     </header>

@@ -11,7 +11,7 @@ export default async function Sidebar() {
       <div className="mt-10">
         <Profile />
       </div>
-      <div className="mt-16">
+      <div className="mt-14">
         <h2 className="text-xl font-bold border-b pb-3 border-river mb-2">Category</h2>
         <Categories categories={categories} />
       </div>
