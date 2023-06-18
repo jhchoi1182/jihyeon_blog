@@ -7,12 +7,12 @@ const sans = Open_Sans({ subsets: ["latin"] });
 
 export const metadata = {
   title: {
-    default: 'jihyeon의 블로그',
-    template: 'jihyeon의 블로그 | %s',
+    default: "jihyeon의 블로그",
+    template: "jihyeon의 블로그 | %s",
   },
-  description: '신입 개발자 jihyeon의 블로그',
+  description: "신입 개발자 jihyeon의 블로그",
   icons: {
-    icon: '/favicon.ico',
+    icon: "/favicon.ico",
   },
 };
 
@@ -21,9 +21,18 @@ type RootLayoutProps = {
 };
 
 export default function RootLayout({ children }: RootLayoutProps) {
+  const setThemeMode = `
+  if (localStorage.theme === 'dark' || (!('theme' in localStorage) && window.matchMedia('(prefers-color-scheme: dark)').matches)) {
+    document.documentElement.classList.add('dark')
+  } else {
+    document.documentElement.classList.remove('dark')
+  }
+`;
+
   return (
-    <html lang="en" className={sans.className}>
-      <body className="flex flex-col w-full mx-auto">
+    <html lang="en" className={`${sans.className}`}>
+      <body className="flex flex-col w-full mx-auto dark:bg-dark dark:text-slate-100">
+        <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
         <Header />
         <main className="grow">{children}</main>
         <Footer />

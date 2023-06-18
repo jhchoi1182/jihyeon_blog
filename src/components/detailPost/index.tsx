@@ -10,7 +10,7 @@ export default function DetailPost({ post }: PostContentProps) {
   const { title, date, content } = post;
 
   return (
-    <section className="flex flex-col p-4 w-full">
+    <section className="flex flex-col w-full">
       <div className="flex items-center self-end text-sky-600 text-xl">
         <AiTwotoneCalendar />
         <p className="font-semibold ml-2">{date.toString()}</p>

@@ -1,6 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: ['./src/**/*.{js,ts,jsx,tsx}'],
+  darkMode: 'class',
   theme: {
     extend: {
       backgroundImage: {
@@ -10,6 +11,8 @@ module.exports = {
       },
       colors: {
         'river': '#3498db',
+        "dark": "#202124",
+        "lightDark": "#303134"
       },
     },
   },

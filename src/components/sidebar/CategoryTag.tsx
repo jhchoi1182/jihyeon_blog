@@ -12,7 +12,7 @@ export default function CategoryTag({ category }: CategoryTagProps) {
   const { selectedCategory, setSelectedCategory } = useContext(CategoryContext);
 
   const bgColor = (category: string) => {
-    return selectedCategory === category ? "bg-teal-400" : "";
+    return selectedCategory === category ? "bg-teal-400 dark:border-teal-400 dark:text-dark" : "";
   };
 
   return (

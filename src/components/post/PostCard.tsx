@@ -13,12 +13,14 @@ export default function PostCard({ post: { title, date, category, path } }: Post
 
   return (
     <Link href={`${params}`}>
-      <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl">
+      <article className="rounded-md overflow-hidden shadow-md hover:shadow-xl dark:border border-lightDark">
         <Image className="w-full" src={`/images/posts/${path}.png`} alt={title} width={300} height={200} />
         <div className="flex flex-col items-center p-4">
-          <time className="self-end text-gray-700">{date.toString()}</time>
+          <time className="self-end text-gray-700 dark:text-slate-100">{date.toString()}</time>
           <h3 className="text-lg font-bold">{title}</h3>
-          <span className="self-start text-sm rounded-2xl bg-teal-400 px-[10px] py-[3px] mt-3 mb-2">{category}</span>
+          <span className="self-start text-sm rounded-2xl bg-teal-400 px-[10px] py-[3px] mt-3 mb-2 dark:text-dark">
+            {category}
+          </span>
         </div>
       </article>
     </Link>

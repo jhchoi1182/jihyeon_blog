@@ -1,7 +1,5 @@
 "use client";
 
-import React, { useState } from "react";
-
 function DarkIcon() {
   return (
     <svg width="24" height="24" viewBox="0 0 24 24" fill="currentColor">
@@ -22,21 +20,16 @@ function LightIcon() {
 }
 
 export default function DarkModeToggle() {
-  const [isDark, setIsDark] = useState(false);
-
   const ChangeDarkModeHandler = () => {
-    setIsDark((prev) => !prev);
+    localStorage.theme = localStorage.theme === "dark" ? "light" : "dark";
+    document.documentElement.classList.toggle("dark");
   };
 
   return (
     <div className="flex items-center gap-1">
       <LightIcon />
       <div className="relative w-10 h-6 bg-white rounded-full cursor-pointer" onClick={ChangeDarkModeHandler}>
-        <button
-          className={`absolute top-0 ${
-            isDark ? "left-[calc(100%-24px)]" : "left-0"
-          } transition-left duration-150 bg-river w-3/5 h-full rounded-full border-2 border-white`}
-        />
+        <button className="absolute top-0 left-0 dark:left-[calc(100%-24px)] transition-left duration-150 bg-river w-3/5 h-full rounded-full border-2 border-white dark:bg-lightDark" />
       </div>
       <DarkIcon />
     </div>

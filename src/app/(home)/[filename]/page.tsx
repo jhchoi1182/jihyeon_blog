@@ -8,9 +8,7 @@ type DetailSlug = {
   };
 };
 
-export async function generateMetadata({
-  params: { filename },
-}: DetailSlug): Promise<Metadata> {
+export async function generateMetadata({ params: { filename } }: DetailSlug): Promise<Metadata> {
   const { title, description } = await getPostData(filename);
   return {
     title,
@@ -20,10 +18,8 @@ export async function generateMetadata({
 
 export default async function Detail({ params: { filename } }: DetailSlug) {
   const post = await getPostData(filename);
-  const { title, path, nextPost, prevPost } = post;
-
   return (
-    <article className="overflow-hidden my-10 mx-32">
+    <article className="overflow-hidden mt-14 mb-36 mx-36">
       <DetailPost post={post} />
     </article>
   );
