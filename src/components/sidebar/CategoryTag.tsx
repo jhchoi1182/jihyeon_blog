@@ -17,7 +17,9 @@ export default function CategoryTag({ category }: CategoryTagProps) {
 
   return (
     <Link
-      className={`border rounded-xl px-2 mr-1.5 my-2 ${bgColor(category)}`}
+      className={`border rounded-xl px-2 mr-1.5 my-1 ${bgColor(
+        category
+      )} hover:bg-teal-400 hover:text-dark hover:border-teal-400`}
       href="/"
       onClick={() => setSelectedCategory(category)}
     >

@@ -15,7 +15,7 @@ export default function PostsContainer({ posts }: PostsContainerProps) {
   const data = selectedCategory === "ALL" ? posts : posts.filter((post) => post.category === selectedCategory);
 
   return (
-    <ul className="grid gap-4 grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4">
+    <ul className="grid gap-4 grid-cols-4 md:grid-cols-1 lg:grid-cols-2 xl:grid-cols-3">
       {data.map((post) => (
         <li key={post.path}>
           <PostCard post={post} />

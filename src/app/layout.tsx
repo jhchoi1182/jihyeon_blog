@@ -2,6 +2,8 @@ import "./globals.css";
 import { Open_Sans } from "next/font/google";
 import Header from "@/components/header";
 import Footer from "@/components/Footer";
+import CategoryContextProvider from "@/context/CategoryContext";
+import Sidebar from "@/components/sidebar";
 
 const sans = Open_Sans({ subsets: ["latin"] });
 
@@ -34,7 +36,12 @@ export default function RootLayout({ children }: RootLayoutProps) {
       <body className="flex flex-col w-full mx-auto dark:bg-dark dark:text-slate-100">
         <script dangerouslySetInnerHTML={{ __html: setThemeMode }} />
         <Header />
-        <main className="grow">{children}</main>
+        <main className="flex">
+          <CategoryContextProvider>
+            <Sidebar />
+            <section className="w-full sm:ml-0">{children}</section>
+          </CategoryContextProvider>
+        </main>
         <Footer />
       </body>
     </html>
