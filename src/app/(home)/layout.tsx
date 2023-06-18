@@ -10,7 +10,7 @@ export default async function HomeLayout({ children }: HomeLayout) {
     <main className="flex">
       <CategoryContextProvider>
         <Sidebar />
-        <section className="ml-80 ">{children}</section>
+        <section className="ml-80 w-full ">{children}</section>
       </CategoryContextProvider>
     </main>
   );
