@@ -1,4 +1,4 @@
-import { getPublicPosts, getResultPosts } from "@/api/posts";
+import { getResultPosts } from "@/api/posts";
 import FeaturedPosts from "@/components/post";
 
 type ResultSlug = {
