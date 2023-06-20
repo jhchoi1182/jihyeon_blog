@@ -1,5 +1,5 @@
 import { getResultPosts } from "@/api/posts";
-import FeaturedPosts from "@/components/post";
+import FeaturedPosts from "@/components/featuredPosts";
 
 type ResultSlug = {
   params: {
