@@ -1,34 +1,30 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+![image](https://github.com/jhchoi1182/jihyeon_blog/assets/116577489/7ddca504-e73d-4f64-8f75-a52a1f866c8e)
 
-## Getting Started
+## 특징
+* Node.js와 md을 활용한 풀스택 개발
+* 다크 모드
+* 검색 기능
+* SEO 최적화
+* ~~드래그 앤 드롭(생각처럼 안 이뻐서 삭제한 기능)~~
 
-First, run the development server:
+<br>
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-```
+## 트러블 슈팅
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### Next.js에서의 전역 상태 관리
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+<br>
 
-This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
+클라이언트 컴포넌트의 하위 컴포넌트이더라도 상태값을 사용하지 않으면 클라이언트 컴포넌트가 아니라 서버 컴포넌트로 작동한다는 매커니즘을 학습
 
-## Learn More
+1. 사이드바를 클라이언트 컴포넌트로 기획하면서 레이아웃에 Context API를 사용
 
-To learn more about Next.js, take a look at the following resources:
+2. 모든 컴포넌트들이 클라이언트 컴포넌트로 동작하는 문제 발생
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+3. 전역 상태 관리 라이브러리를 설치해 사용해 봐도 같은 문제 발생
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+4. 생각해 보니 레이아웃 컴포넌트는 SEO를 최적화하기 위해서라도 반드시 서버 컴포넌트로 동작해야 했기 때문에 접근 자체가 틀렸다는 것을 인지
 
-## Deploy on Vercel
+5. 학습한 내용을 토대로 응용해 Context 컴포넌트를 따로 만들고 페이지를 children으로 감싸는 방법으로 문제 해결
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
