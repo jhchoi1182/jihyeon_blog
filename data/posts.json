@@ -4,7 +4,7 @@
     "description": "리액트 드래그 앤 드롭 구현",
     "date": "2023-06-08",
     "category": "React",
-    "path": "드래그 앤 드롭 구현",
+    "path": "DND",
     "public": true
   },
   {
@@ -12,7 +12,7 @@
     "description": "프로토타입 개념",
     "date": "2023-06-08",
     "category": "javascript",
-    "path": "프로토타입",
+    "path": "Prototype",
     "public": true
   },
   {
@@ -20,7 +20,7 @@
     "description": "CSS 팁들",
     "date": "2023-04-01",
     "category": "웹 개발 기초",
-    "path": "CSS 팁들",
+    "path": "CSS Tip",
     "public": true
   },
   {
@@ -28,7 +28,7 @@
     "description": "React Native에서 Context API 사용 시 주의사항. Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.",
     "date": "2023-03-13",
     "category": "React Native",
-    "path": "React Native에서 Context API 사용 시 주의사항",
+    "path": "React Native Context API",
     "public": true
   },
   {
@@ -36,7 +36,7 @@
     "description": "JavaScript 좌표값 구하기. offsetLeft/offsetTop clientX/clientY screenX/screenY getBoundingClientRect().",
     "date": "2023-05-10",
     "category": "JavaScript",
-    "path": "좌표 구하기",
+    "path": "XY",
     "public": true
   },
   {
@@ -44,7 +44,7 @@
     "description": "typescript 전역 선언 .d.ts",
     "date": "2023-06-14",
     "category": "JavaScript",
-    "path": "타입스크립트 선언 파일",
+    "path": "type declare",
     "public": true
   },
   {
@@ -60,7 +60,7 @@
     "description": "github.io로 배포하는 방법",
     "date": "2023-04-05",
     "category": "GitHub",
-    "path": "github.io로 배포",
+    "path": "github.io",
     "public": true
   },
   {
@@ -68,7 +68,7 @@
     "description": "Next.js 라우팅. Parallel Routes, Intercepting Routes",
     "date": "2023-06-12",
     "category": "Next.js",
-    "path": "라우팅 심화",
+    "path": "Routing",
     "public": true
   },
   {
@@ -76,7 +76,7 @@
     "description": "리액트 성능 최적화",
     "date": "2023-05-20",
     "category": "일지",
-    "path": "넷플릭스 클론 프로젝트 최적화 일지",
+    "path": "Netflix clone",
     "public": true
   },
   {
@@ -84,7 +84,7 @@
     "description": "PWA 적용하기",
     "date": "2023-01-24",
     "category": "일지",
-    "path": "PWA 적용하기",
+    "path": "PWA",
     "public": true
   },
   {
@@ -92,7 +92,7 @@
     "description": "javascript 자료 구조 그래프 구현",
     "date": "2023-05-30",
     "category": "CS",
-    "path": "그래프 구현",
+    "path": "Graph",
     "public": true
   }
 ]
