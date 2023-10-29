@@ -35,7 +35,7 @@ export default function PostContent({ content }: PostContentProps) {
         },
         img: (image) => (
           <Image
-            className="object-none object-left-top"
+            className="object-contain object-left-top"
             src={image.src || ""}
             alt={image.alt || ""}
             width={500}
