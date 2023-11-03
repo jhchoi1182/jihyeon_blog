@@ -34,12 +34,10 @@ export default function PostContent({ content }: PostContentProps) {
           );
         },
         img: (image) => (
-          <Image
+          <img
             className="object-contain object-left-top"
             src={image.src || ""}
             alt={image.alt || ""}
-            width={500}
-            height={350}
           />
         ),
         h2: ({ children }) => (
