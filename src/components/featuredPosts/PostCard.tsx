@@ -1,4 +1,5 @@
 import { Post } from "@/api/posts";
+import { preloadImage } from "@/utils/preloadImage";
 import Image from "next/image";
 import Link from "next/link";
 
@@ -6,9 +7,9 @@ type PostCardProps = {
   post: Post;
 };
 
-export default function PostCard({ post: { title, date, category, path } }: PostCardProps) {
+export default function PostCard({ post: { title, date, category, path, images } }: PostCardProps) {
   return (
-    <Link href={`/${path}`}>
+    <Link href={`/${path}`} onMouseEnter={() => preloadImage(images)}>
       <article className="rounded-md h-96 overflow-hidden shadow-md hover:shadow-xl dark:border border-lightDark">
         <Image className="w-full h-52" src={`/images/posts/${path}.webp`} alt={title} width={300} height={208} />
         <div className="flex flex-col items-center p-4">
