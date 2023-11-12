@@ -1,4 +1,4 @@
-import { getResultPosts } from "@/api/posts";
+import { getResultPosts } from "@/api/search";
 import FeaturedPosts from "@/components/featuredPosts";
 
 type ResultSlug = {
