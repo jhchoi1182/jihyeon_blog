@@ -1,185 +1,123 @@
 [
   {
-    "title": "드래그 앤 드롭 구현",
-    "description": "리액트 드래그 앤 드롭 구현",
-    "date": "2023-06-08",
-    "category": "React",
-    "path": "DND",
+    "title": "블랙잭",
+    "description": "코딩테스트 일반 구현 문제",
+    "date": "2023-11-11",
+    "category": "일반 구현",
+    "path": "블랙잭",
     "public": true,
     "images": []
   },
   {
-    "title": "프로토타입",
-    "description": "프로토타입 개념",
-    "date": "2023-06-08",
-    "category": "javascript",
-    "path": "Prototype",
+    "title": "음계",
+    "description": "코딩테스트 일반 구현 문제",
+    "date": "2023-11-11",
+    "category": "일반 구현",
+    "path": "음계",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/fe34c287-dc96-4bdc-b51f-8e5c15a7394a"
-    ]
+    "images": []
   },
   {
-    "title": "CSS 팁들",
-    "description": "CSS 팁들",
-    "date": "2023-04-01",
-    "category": "웹 개발 기초",
-    "path": "CSS Tip",
+    "title": "수 찾기",
+    "description": "코딩테스트 일반 구현 문제",
+    "date": "2023-11-12",
+    "category": "일반 구현",
+    "path": "수 찾기",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/b19da8d9-0704-4cae-bea4-29cd8a66eebf",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/62329a0c-6a3f-4f87-a0b3-6386f8b942de"
-    ]
+    "images": []
+  },
+
+  {
+    "title": "스택 수열",
+    "description": "코딩테스트 스택 문제",
+    "date": "2023-11-11",
+    "category": "스택",
+    "path": "스택 수열",
+    "public": true,
+    "images": []
   },
   {
-    "title": "React Native에서 Context API 사용 시 주의사항",
-    "description": "React Native에서 Context API 사용 시 주의사항. Require cycles are allowed, but can result in uninitialized values. Consider refactoring to remove the need for a cycle.",
-    "date": "2023-03-13",
-    "category": "React Native",
-    "path": "React Native Context API",
+    "title": "스택",
+    "description": "코딩테스트 스택 문제",
+    "date": "2023-11-11",
+    "category": "스택",
+    "path": "스택",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/4146a2a0-e408-41a5-9fe6-4396bb7fe588",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/e26da12b-376f-4ce1-8e29-5bdd0dbb3997",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/f6166431-2e49-402d-9ffd-c9222dc18853",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/530d11f8-f19e-456d-b8f8-794670bd4893"
-    ]
+    "images": []
   },
   {
-    "title": "좌표 구하기",
-    "description": "JavaScript 좌표값 구하기. offsetLeft/offsetTop clientX/clientY screenX/screenY getBoundingClientRect().",
-    "date": "2023-05-10",
-    "category": "JavaScript",
-    "path": "XY",
+    "title": "제로",
+    "description": "코딩테스트 스택 문제",
+    "date": "2023-11-11",
+    "category": "스택",
+    "path": "제로",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/c29b309b-768d-4fc1-a742-31c0376952a2"
-    ]
+    "images": []
   },
   {
-    "title": "타입스크립트 선언 파일",
-    "description": "typescript 전역 선언 .d.ts",
-    "date": "2023-06-14",
-    "category": "JavaScript",
-    "path": "type declare",
+    "title": "키로거",
+    "description": "코딩테스트 스택 문제",
+    "date": "2023-11-12",
+    "category": "스택",
+    "path": "키로거",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/7b6a72cc-1efe-46da-be3c-23ffbd10f2f6",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/49daa9f8-d5a4-4548-8bab-ca83bbbf7265",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/4c049497-aed2-4d3d-8bb8-a9fb5098ea94",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/4df71445-ef45-4b6c-ac17-6db001b1f195"
-    ]
+    "images": []
   },
   {
-    "title": "Mongo DB",
-    "description": "Mongo DB 라이브러리 사용법",
-    "date": "2023-06-15",
-    "category": "라이브러리",
-    "path": "Mongo DB",
+    "title": "오큰수",
+    "description": "코딩테스트 스택 문제",
+    "date": "2023-11-12",
+    "category": "스택",
+    "path": "오큰수",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/9b5131b4-8511-4eb9-90b8-53351e020c3f"
-    ]
+    "images": []
+  },
+
+  {
+    "title": "프린터 큐",
+    "description": "코딩테스트 우선순위 큐 문제",
+    "date": "2023-11-11",
+    "category": "큐",
+    "path": "프린터 큐",
+    "public": true,
+    "images": []
   },
   {
-    "title": "github.io로 배포",
-    "description": "github.io로 배포하는 방법",
-    "date": "2023-04-05",
-    "category": "GitHub",
-    "path": "github.io",
+    "title": "회전하는 큐",
+    "description": "코딩테스트 큐 문제",
+    "date": "2023-11-12",
+    "category": "큐",
+    "path": "회전하는 큐",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/9716794e-4b2f-47f0-b9d3-47208fa03e2e",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/8a79fb82-5d49-40e6-a700-a01d183f930f",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/30a09d0b-9ccb-4610-b362-b32cf2e629f7"
-    ]
+    "images": []
   },
   {
-    "title": "라우팅 심화",
-    "description": "Next.js 라우팅. Parallel Routes, Intercepting Routes",
-    "date": "2023-06-12",
-    "category": "Next.js",
-    "path": "Routing",
+    "title": "트럭",
+    "description": "코딩테스트 큐 문제",
+    "date": "2023-11-12",
+    "category": "큐",
+    "path": "트럭",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/1c80fbdd-bb0b-49be-bf7e-3087228c4f2e",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/8e062d29-360c-49a7-89df-1a6c27eae51a",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/46eb998e-0cd1-4c5e-bb2e-45c4d3c757c4",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/26f35907-6a1d-466e-b9c8-66874efe2e97",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/14ee1c8a-530e-412e-9b24-7536794c4eab"
-    ]
+    "images": []
   },
+
   {
-    "title": "넷플릭스 클론 프로젝트 최적화 일지",
-    "description": "리액트 성능 최적화",
-    "date": "2023-05-20",
-    "category": "일지",
-    "path": "Netflix clone",
+    "title": "SHA-256",
+    "description": "코딩테스트 해시 문제",
+    "date": "2023-11-12",
+    "category": "해시",
+    "path": "SHA-256",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/79db9f40-cda3-40da-868b-22c696abfa93",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/1dc6f703-c6dd-4306-b328-893f44dc9ca9",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/c2530305-9363-47e6-9ce9-cb4e0881934e",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/40f4c697-92b4-4883-981e-b0ffd59d0358",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/ec4d88f1-bd92-4626-b3a5-4f5c208c8030",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/086d6b6d-fefb-455a-a4c5-17656ddc8a15",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/ef18b2a8-1843-4624-864e-d8c9e5ccc25e",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/489e4311-d787-46e0-a508-8433d94fa065",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/ea4b2b07-2b0f-4ac2-a427-0e7effff24eb",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/dcf07dcc-3847-47be-b37d-69ef0135aabc",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/800489f2-968c-4ea0-accf-c84d9a47d3e0",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/145203d2-033d-463c-9c2d-e1016d08b1a5",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/50dfdc7f-246f-4d57-84c5-7585e454c2a1",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/936f7f28-f652-4193-bdeb-cc5d4148683c",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/1651e8b3-4a5b-4d0d-886b-77c2f13dcccb",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/b5d29dce-296d-4615-bfe4-f249caa9b9a3",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/56c36c0a-d701-4288-866a-8c1f12611a2c",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/e1abcbfa-4f35-40bf-90ee-fd71c06c1eaa",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/937ea43e-2afe-4ee7-a057-d259e83def9c",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/a92a6a6a-dac3-4e27-b9b9-151420f8d05f",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/93ae201f-da7e-4105-91c2-b7ce7945c85f",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/16cd3767-b1e9-4027-82aa-f4d74e475c24",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/9c8c1246-2a04-48c2-9019-b8216139c5b6",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/b2c0920b-b081-4962-944f-9fc6e6aa4a01",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/7b57c31a-6f8b-4737-8bed-213d6a5d93ce",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/4c11e02d-4f98-484b-81d4-707602639384",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/d14a095c-5dd2-4bf8-bc54-b1668e6dfc06",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/eb1b67dc-12f3-4da1-948b-033023cfa643",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/df8af067-033d-47fc-ae2b-dffc6ecfdc03",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/f07fd8e7-72c4-4ded-b125-168513996cae",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/f6047e0b-2b35-4c6a-b268-8b0ca5986b83",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/ecaa4d72-84d3-4758-a9a8-1e317be80069",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/24672dae-3969-4064-8498-8569e6ac7d1b",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/a5135ace-4337-4edd-b887-ac5f3bcf1bd8",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/41534efe-b42d-41c8-87d1-6fbdd52053be",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/f8888240-ad7d-4d48-8fba-34175a386499",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/a60f90e6-2a33-4874-bb1c-7a49b66e5c6f"
-    ]
+    "images": []
   },
+
   {
-    "title": "PWA 적용하기",
-    "description": "PWA 적용하기",
-    "date": "2023-01-24",
-    "category": "일지",
-    "path": "PWA",
+    "title": "친구 네트워크",
+    "description": "코딩테스트 그래프 문제",
+    "date": "2023-11-12",
+    "category": "그래프",
+    "path": "친구 네트워크",
     "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/83b9816d-9685-4e7c-9b07-c20ea3e09536",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/98113d5d-b25f-47d1-aa79-967ae15b85ba",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/8063109f-22e1-4e29-8083-429dcc15c4c0",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/1adde0a2-4174-495f-bdfa-42d6e2660dc7"
-    ]
-  },
-  {
-    "title": "그래프 구현",
-    "description": "javascript 자료 구조 그래프 구현",
-    "date": "2023-05-30",
-    "category": "CS",
-    "path": "Graph",
-    "public": true,
-    "images": [
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/109d6122-5600-4896-8d7d-56070ad55ced",
-      "https://github.com/jhchoi1182/next-blog/assets/116577489/551e0462-051c-47a4-b858-7baa8d2afd92"
-    ]
+    "images": []
   }
 ]
