@@ -157,6 +157,16 @@
   },
 
   {
+    "title": "트리 순회",
+    "description": "코딩테스트 트리 문제",
+    "date": "2023-11-13",
+    "category": "트리",
+    "path": "트리 순회",
+    "public": true,
+    "images": []
+  },
+
+  {
     "title": "친구 네트워크",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-12",
@@ -180,6 +190,124 @@
     "date": "2023-11-13",
     "category": "그래프",
     "path": "연결 요소의 개수",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "N-Queen",
+    "description": "코딩테스트 그래프 문제",
+    "date": "2023-11-14",
+    "category": "그래프",
+    "path": "N-Queen",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "유기농 배추",
+    "description": "코딩테스트 그래프 문제",
+    "date": "2023-11-14",
+    "category": "그래프",
+    "path": "유기농 배추",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "효율적인 해킹",
+    "description": "코딩테스트 그래프 문제",
+    "date": "2023-11-14",
+    "category": "그래프",
+    "path": "효율적인 해킹",
+    "public": true,
+    "images": []
+  },
+
+  {
+    "title": "수 정렬하기 3",
+    "description": "코딩테스트 정렬 문제",
+    "date": "2023-11-13",
+    "category": "정렬",
+    "path": "수 정렬하기 3",
+    "public": true,
+    "images": [
+      "https://github.com/jhchoi1182/jihyeon_blog/assets/116577489/1fe74597-f854-44c3-802a-7b1280c83d6c"
+    ]
+  },
+  {
+    "title": "수 정렬하기 2",
+    "description": "코딩테스트 정렬 문제",
+    "date": "2023-11-13",
+    "category": "정렬",
+    "path": "수 정렬하기 2",
+    "public": true,
+    "images": []
+  },
+
+  {
+    "title": "Z",
+    "description": "코딩테스트 재귀 문제",
+    "date": "2023-11-13",
+    "category": "재귀",
+    "path": "Z",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "0 만들기",
+    "description": "코딩테스트 재귀 문제",
+    "date": "2023-11-13",
+    "category": "재귀",
+    "path": "0 만들기",
+    "public": true,
+    "images": []
+  },
+
+  {
+    "title": "피보나치 수",
+    "description": "코딩테스트 동적 계획법 문제",
+    "date": "2023-11-13",
+    "category": "동적 계획법",
+    "path": "피보나치 수",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "평범한 배낭",
+    "description": "코딩테스트 동적 계획법 문제",
+    "date": "2023-11-13",
+    "category": "동적 계획법",
+    "path": "평범한 배낭",
+    "public": true,
+    "images": [
+      "https://github.com/jhchoi1182/portfolio/assets/116577489/6e7e90f1-bf41-4e83-81a5-40c165fb73bb"
+    ]
+  },
+  {
+    "title": "기타리스트",
+    "description": "코딩테스트 동적 계획법 문제",
+    "date": "2023-11-13",
+    "category": "동적 계획법",
+    "path": "기타리스트",
+    "public": true,
+    "images": [
+      "https://github.com/jhchoi1182/portfolio/assets/116577489/1fa2ca74-012c-40a1-b492-2c283e46c374"
+    ]
+  },
+
+  {
+    "title": "공유기 설치",
+    "description": "코딩테스트 탐색 문제",
+    "date": "2023-11-13",
+    "category": "탐색",
+    "path": "공유기 설치",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "중량 제한",
+    "description": "코딩테스트 탐색 문제",
+    "date": "2023-11-13",
+    "category": "탐색",
+    "path": "중량 제한",
     "public": true,
     "images": []
   }
