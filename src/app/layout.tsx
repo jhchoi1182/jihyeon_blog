@@ -39,7 +39,9 @@ export default function RootLayout({ children }: RootLayoutProps) {
         <main className="flex">
           <CategoryContextProvider>
             <Sidebar />
-            <section className="w-full sm:ml-0">{children}</section>
+            <section className="w-full sm:ml-0 min-h-screen">
+              {children}
+            </section>
           </CategoryContextProvider>
         </main>
         <Footer />
