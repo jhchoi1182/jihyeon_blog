@@ -3,7 +3,7 @@
     "title": "블랙잭",
     "description": "코딩테스트 일반 구현 문제",
     "date": "2023-11-11",
-    "category": "일반 구현",
+    "categories": ["일반 구현"],
     "path": "블랙잭",
     "public": true,
     "images": []
@@ -12,7 +12,7 @@
     "title": "음계",
     "description": "코딩테스트 일반 구현 문제",
     "date": "2023-11-11",
-    "category": "일반 구현",
+    "categories": ["일반 구현"],
     "path": "음계",
     "public": true,
     "images": []
@@ -21,7 +21,7 @@
     "title": "수 찾기",
     "description": "코딩테스트 일반 구현 문제",
     "date": "2023-11-12",
-    "category": "일반 구현",
+    "categories": ["일반 구현"],
     "path": "수 찾기",
     "public": true,
     "images": []
@@ -30,7 +30,7 @@
     "title": "알파벳 찾기",
     "description": "코딩테스트 일반 구현 문제",
     "date": "2023-11-13",
-    "category": "일반 구현",
+    "categories": ["일반 구현"],
     "path": "알파벳 찾기",
     "public": true,
     "images": []
@@ -39,7 +39,7 @@
     "title": "주사위",
     "description": "코딩테스트 일반 구현 문제",
     "date": "2023-11-13",
-    "category": "일반 구현",
+    "categories": ["일반 구현"],
     "path": "주사위",
     "public": true,
     "images": []
@@ -49,7 +49,7 @@
     "title": "스택 수열",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-11",
-    "category": "스택",
+    "categories": ["스택"],
     "path": "스택 수열",
     "public": true,
     "images": []
@@ -58,7 +58,7 @@
     "title": "스택",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-11",
-    "category": "스택",
+    "categories": ["스택"],
     "path": "스택",
     "public": true,
     "images": []
@@ -67,7 +67,7 @@
     "title": "제로",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-11",
-    "category": "스택",
+    "categories": ["스택"],
     "path": "제로",
     "public": true,
     "images": []
@@ -76,7 +76,7 @@
     "title": "키로거",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-12",
-    "category": "스택",
+    "categories": ["스택"],
     "path": "키로거",
     "public": true,
     "images": []
@@ -85,7 +85,7 @@
     "title": "오큰수",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-12",
-    "category": "스택",
+    "categories": ["스택"],
     "path": "오큰수",
     "public": true,
     "images": []
@@ -95,7 +95,7 @@
     "title": "프린터 큐",
     "description": "코딩테스트 우선순위 큐 문제",
     "date": "2023-11-11",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "프린터 큐",
     "public": true,
     "images": []
@@ -104,7 +104,7 @@
     "title": "회전하는 큐",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-12",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "회전하는 큐",
     "public": true,
     "images": []
@@ -113,7 +113,7 @@
     "title": "트럭",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-12",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "트럭",
     "public": true,
     "images": []
@@ -122,7 +122,7 @@
     "title": "절댓값 힙",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-13",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "절댓값 힙",
     "public": true,
     "images": []
@@ -131,7 +131,7 @@
     "title": "이중 우선순위 큐",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-13",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "이중 우선순위 큐",
     "public": true,
     "images": []
@@ -140,7 +140,7 @@
     "title": "중앙값 구하기",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-13",
-    "category": "큐",
+    "categories": ["큐"],
     "path": "중앙값 구하기",
     "public": true,
     "images": []
@@ -150,7 +150,7 @@
     "title": "SHA-256",
     "description": "코딩테스트 해시 문제",
     "date": "2023-11-12",
-    "category": "해시",
+    "categories": ["해시"],
     "path": "SHA-256",
     "public": true,
     "images": []
@@ -160,7 +160,7 @@
     "title": "트리 순회",
     "description": "코딩테스트 트리 문제",
     "date": "2023-11-13",
-    "category": "트리",
+    "categories": ["트리"],
     "path": "트리 순회",
     "public": true,
     "images": []
@@ -170,7 +170,7 @@
     "title": "친구 네트워크",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-12",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "친구 네트워크",
     "public": true,
     "images": []
@@ -179,7 +179,7 @@
     "title": "사이클 게임",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-13",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "사이클 게임",
     "public": true,
     "images": []
@@ -188,7 +188,7 @@
     "title": "연결 요소의 개수",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-13",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "연결 요소의 개수",
     "public": true,
     "images": []
@@ -197,7 +197,7 @@
     "title": "N-Queen",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-14",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "N-Queen",
     "public": true,
     "images": []
@@ -206,7 +206,7 @@
     "title": "유기농 배추",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-14",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "유기농 배추",
     "public": true,
     "images": []
@@ -215,7 +215,7 @@
     "title": "효율적인 해킹",
     "description": "코딩테스트 그래프 문제",
     "date": "2023-11-14",
-    "category": "그래프",
+    "categories": ["그래프"],
     "path": "효율적인 해킹",
     "public": true,
     "images": []
@@ -225,7 +225,7 @@
     "title": "수 정렬하기 3",
     "description": "코딩테스트 정렬 문제",
     "date": "2023-11-13",
-    "category": "정렬",
+    "categories": ["정렬"],
     "path": "수 정렬하기 3",
     "public": true,
     "images": [
@@ -236,7 +236,7 @@
     "title": "수 정렬하기 2",
     "description": "코딩테스트 정렬 문제",
     "date": "2023-11-13",
-    "category": "정렬",
+    "categories": ["정렬"],
     "path": "수 정렬하기 2",
     "public": true,
     "images": []
@@ -246,7 +246,7 @@
     "title": "Z",
     "description": "코딩테스트 재귀 문제",
     "date": "2023-11-13",
-    "category": "재귀",
+    "categories": ["재귀"],
     "path": "Z",
     "public": true,
     "images": []
@@ -255,7 +255,7 @@
     "title": "0 만들기",
     "description": "코딩테스트 재귀 문제",
     "date": "2023-11-13",
-    "category": "재귀",
+    "categories": ["재귀"],
     "path": "0 만들기",
     "public": true,
     "images": []
@@ -265,7 +265,7 @@
     "title": "피보나치 수",
     "description": "코딩테스트 동적 계획법 문제",
     "date": "2023-11-13",
-    "category": "동적 계획법",
+    "categories": ["동적 계획법"],
     "path": "피보나치 수",
     "public": true,
     "images": []
@@ -274,7 +274,7 @@
     "title": "평범한 배낭",
     "description": "코딩테스트 동적 계획법 문제",
     "date": "2023-11-13",
-    "category": "동적 계획법",
+    "categories": ["동적 계획법"],
     "path": "평범한 배낭",
     "public": true,
     "images": [
@@ -285,7 +285,7 @@
     "title": "기타리스트",
     "description": "코딩테스트 동적 계획법 문제",
     "date": "2023-11-13",
-    "category": "동적 계획법",
+    "categories": ["동적 계획법"],
     "path": "기타리스트",
     "public": true,
     "images": [
@@ -297,7 +297,7 @@
     "title": "공유기 설치",
     "description": "코딩테스트 탐색 문제",
     "date": "2023-11-13",
-    "category": "탐색",
+    "categories": ["탐색"],
     "path": "공유기 설치",
     "public": true,
     "images": []
@@ -306,7 +306,7 @@
     "title": "중량 제한",
     "description": "코딩테스트 탐색 문제",
     "date": "2023-11-13",
-    "category": "탐색",
+    "categories": ["탐색"],
     "path": "중량 제한",
     "public": true,
     "images": []
