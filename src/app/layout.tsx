@@ -12,7 +12,8 @@ export const metadata = {
     default: "jihyeon의 블로그",
     template: "jihyeon의 블로그 | %s",
   },
-  description: "신입 개발자 jihyeon의 블로그",
+  description:
+    "신입 프론트엔드 개발자 jihyeon choi가 공부한 코딩 테스트를 기록한 블로그입니다.",
   icons: {
     icon: "/favicon.ico",
   },
