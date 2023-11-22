@@ -9,7 +9,10 @@ import { PostsProps } from ".";
 export default function PostsContainer({ posts }: PostsProps) {
   const { selectedCategory } = useContext(CategoryContext);
 
-  const data = selectedCategory === "ALL" ? posts : posts.filter((post) => post.category === selectedCategory);
+  const data =
+    selectedCategory === "ALL"
+      ? posts
+      : posts.filter((post) => post.categories.includes(selectedCategory));
 
   return (
     <ul className="grid gap-4 grid-cols-4 sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 xl:grid-cols-3">
