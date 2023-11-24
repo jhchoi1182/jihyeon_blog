@@ -1,9 +1,3 @@
-https://www.acmicpc.net/problem/10773
-
-계산 도와주며 0외치면 삭제
-스택 합 구하기
-
-```
 import sys
 input = sys.stdin.readline
 
@@ -19,5 +13,3 @@ for _ in range(k):
         stack.append(num)
 
 print(sum(stack))
-
-```
