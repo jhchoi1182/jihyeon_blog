@@ -35,15 +35,6 @@
     "public": true,
     "images": []
   },
-  {
-    "title": "주사위",
-    "description": "코딩테스트 일반 구현 문제",
-    "date": "2023-11-13",
-    "categories": ["일반 구현"],
-    "path": "주사위",
-    "public": true,
-    "images": []
-  },
 
   {
     "title": "스택 수열",
@@ -76,7 +67,7 @@
     "title": "오큰수",
     "description": "코딩테스트 스택 문제",
     "date": "2023-11-12",
-    "categories": ["스택"],
+    "categories": ["스택", "탐색"],
     "path": "오큰수",
     "public": true,
     "images": []
@@ -95,8 +86,17 @@
     "title": "회전하는 큐",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-12",
-    "categories": ["큐"],
+    "categories": ["큐", "덱"],
     "path": "회전하는 큐",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "요세푸스 문제 0",
+    "description": "코딩테스트 큐 문제",
+    "date": "2023-11-25",
+    "categories": ["큐", "덱"],
+    "path": "요세푸스 문제 0",
     "public": true,
     "images": []
   },
@@ -113,7 +113,7 @@
     "title": "절댓값 힙",
     "description": "코딩테스트 큐 문제",
     "date": "2023-11-13",
-    "categories": ["큐"],
+    "categories": ["큐", "우선순위 큐"],
     "path": "절댓값 힙",
     "public": true,
     "images": []
@@ -243,6 +243,15 @@
     "images": []
   },
   {
+    "title": "재귀함수가 뭔가요",
+    "description": "코딩테스트 재귀 문제",
+    "date": "2023-11-26",
+    "categories": ["재귀"],
+    "path": "재귀함수가 뭔가요",
+    "public": true,
+    "images": []
+  },
+  {
     "title": "0 만들기",
     "description": "코딩테스트 재귀 문제",
     "date": "2023-11-13",
@@ -294,6 +303,24 @@
     "images": []
   },
   {
+    "title": "문서 검색",
+    "description": "코딩테스트 탐색 문제",
+    "date": "2023-11-26",
+    "categories": ["탐색"],
+    "path": "문서 검색",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "베스트셀러",
+    "description": "코딩테스트 탐색 문제",
+    "date": "2023-11-26",
+    "categories": ["탐색"],
+    "path": "베스트셀러",
+    "public": true,
+    "images": []
+  },
+  {
     "title": "중량 제한",
     "description": "코딩테스트 탐색 문제",
     "date": "2023-11-13",
@@ -308,6 +335,15 @@
     "date": "2023-11-12",
     "categories": ["탐색", "일반 구현"],
     "path": "수 찾기",
+    "public": true,
+    "images": []
+  },
+  {
+    "title": "주사위",
+    "description": "코딩테스트 탐색 문제",
+    "date": "2023-11-13",
+    "categories": ["탐색", "일반 구현"],
+    "path": "주사위",
     "public": true,
     "images": []
   }
