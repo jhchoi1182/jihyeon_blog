@@ -1,5 +1,30 @@
 ![image](https://github.com/jhchoi1182/jihyeon_blog/assets/116577489/7ddca504-e73d-4f64-8f75-a52a1f866c8e)
 
+## 개인 블로그
+개인 기록용 블로그.
+<br>
+<br>
+초기에 기술 블로그 목적으로 사용하다가 코딩 테스트 문제 풀이 기록을 목적으로 변경해서 사용 중
+<br>
+<br>
+
+## 기술 스택
+
+<div>
+
+<img src="https://img.shields.io/badge/Javascript-F7DF1E?style=for-the-badge&logo=Javascript&logoColor=black"/>
+<img src="https://img.shields.io/badge/Typescript-3178C6?style=for-the-badge&logo=Typescript&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/React-61DAFB?style=for-the-badge&logo=React&logoColor=black"/>
+<img src="https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=nextdotjs&logoColor=white">
+<br>
+<img src="https://img.shields.io/badge/Tailwind CSS-06B6D4?style=for-the-badge&logo=Tailwind CSS&logoColor=white"/>
+
+
+</div>
+
+<br><br>
+
 ## 특징
 * Node.js와 md을 활용한 풀스택 개발
 * 다크 모드
