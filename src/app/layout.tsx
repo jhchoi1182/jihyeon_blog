@@ -4,6 +4,7 @@ import Header from "@/components/header";
 import Footer from "@/components/Footer";
 import CategoryContextProvider from "@/context/CategoryContext";
 import Sidebar from "@/components/sidebar";
+import { ScrollToTop } from "@/utils/useScrollToTop";
 
 const sans = Open_Sans({ subsets: ["latin"] });
 
@@ -43,6 +44,7 @@ export default function RootLayout({ children }: RootLayoutProps) {
             <section className="w-full sm:ml-0 min-h-screen">
               {children}
             </section>
+            <ScrollToTop />
           </CategoryContextProvider>
         </main>
         <Footer />
