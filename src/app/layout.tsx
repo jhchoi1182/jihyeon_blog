@@ -4,7 +4,7 @@ import Header from "@/components/header";
 import Footer from "@/components/Footer";
 import CategoryContextProvider from "@/context/CategoryContext";
 import Sidebar from "@/components/sidebar";
-import { ScrollToTop } from "@/utils/useScrollToTop";
+import { ScrollToTop } from "@/components/ScrollToTop";
 
 const sans = Open_Sans({ subsets: ["latin"] });
 
